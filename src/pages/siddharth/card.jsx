@@ -3,7 +3,9 @@ import React from 'react';
 function card() {
   return (
     <>
-      <div></div>
+      <div>
+        <h1>Hello</h1>
+      </div>
     </>
   );
 }
