@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <Team />,
   },
   {
-    path: '/abhishree/error',
+    path: '/Abhishree/Error',
     element: <ErrorComponent />,
   },
 ]);
