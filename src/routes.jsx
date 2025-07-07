@@ -1,7 +1,7 @@
 // src/routes.js
 import { createBrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
-import Card from './pages/siddharth/card';
+import Team from './pages/Tanmay/Team';
 
 const router = createBrowserRouter([
   {
@@ -9,8 +9,12 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: '/siddharth/card',
-    element: <Card />,
+    path: '/Tanmay/Team',
+    element: <Team />,
+  },
+  {
+    path: '/Abhishree/Error',
+    element: <Error />,
   },
 ]);
 
