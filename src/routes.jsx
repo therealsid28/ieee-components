@@ -2,6 +2,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import Team from './pages/Tanmay/Team';
+import ErrorComponent from './pages/Abhishree/ErrorComponent';
 
 const router = createBrowserRouter([
   {
@@ -13,8 +14,8 @@ const router = createBrowserRouter([
     element: <Team />,
   },
   {
-    path: '/Abhishree/Error',
-    element: <Error />,
+    path: '/abhishree/error',
+    element: <ErrorComponent />,
   },
 ]);
 
