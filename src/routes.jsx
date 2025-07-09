@@ -3,6 +3,8 @@ import { createBrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import Team from './pages/Tanmay/Team';
 import ErrorComponent from './pages/Abhishree/ErrorComponent';
+import TextPage from './pages/Tanmay/TextPage';
+import ContactSection from './pages/Tanmay/ContactSection';
 
 const router = createBrowserRouter([
   {
@@ -12,6 +14,14 @@ const router = createBrowserRouter([
   {
     path: '/Tanmay/Team',
     element: <Team />,
+  },
+  {
+    path: '/Tanmay/TextPage',
+    element: <TextPage />,
+  },
+  {
+    path: '/Tanmay/ContactSection',
+    element: <ContactSection />,
   },
   {
     path: '/Abhishree/Error',
