@@ -5,6 +5,7 @@ import Team from './pages/Tanmay/Team';
 import ErrorComponent from './pages/Abhishree/ErrorComponent';
 import TextPage from './pages/Tanmay/TextPage';
 import ContactSection from './pages/Tanmay/ContactSection';
+import BlogSection from './pages/Tanmay/BlogSection';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: '/Tanmay/ContactSection',
     element: <ContactSection />,
+  },
+  {
+    path: '/Tanmay/Blog',
+    element: <BlogSection />,
   },
   {
     path: '/Abhishree/Error',
