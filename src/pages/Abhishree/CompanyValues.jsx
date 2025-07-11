@@ -1,4 +1,4 @@
-import MainImage from './main.jpg';
+import MainImage from './pictures/main.jpg';
 
 export default function CompanyValues() {
   return (
