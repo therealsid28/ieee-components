@@ -7,6 +7,8 @@ import CompanyValues from './pages/Abhishree/CompanyValues';
 import AnnouncementBanner from './pages/Abhishree/AnnouncementBanner';
 import TextPage from './pages/Tanmay/TextPage';
 import ContactSection from './pages/Tanmay/ContactSection';
+import BlogSection from './pages/Tanmay/BlogSection';
+import Footer from './pages/Tanmay/Footer';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
   {
     path: '/Tanmay/ContactSection',
     element: <ContactSection />,
+  },
+  {
+    path: '/Tanmay/Blog',
+    element: <BlogSection />,
+  },
+  {
+    path: '/Tanmay/Footer',
+    element: <Footer />,
   },
   {
     path: '/Abhishree/Error',
